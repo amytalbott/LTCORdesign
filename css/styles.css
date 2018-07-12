@@ -1,0 +1,257 @@
+main {
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+/* Applies styles and spacing to the navbar at the top, makes the image responsive */
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-nav a {
+  padding: 10px;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.logo {
+  height: 90px;
+}
+
+/* a.navbar-brand img {
+  width: 75%;
+  height: 75%;
+} */
+/* Lines up elements in divs with the .racecol class */
+.racecol {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Adds a background image and other styling to elements in the .raceInfo div */
+.raceinfo {
+   background-image: url("../img/raceHero.png");
+   background-color: #cccccc;
+   background-position: center;
+   background-size: cover;
+}
+
+.raceinfo .btn, .btn-secondary, .btn-lg {
+  background-color: rgb(0, 153, 153, 0.8);
+}
+
+
+.raceinfo h2 {
+  color: white;
+  z-index: 3;
+}
+
+.raceinfo h4 {
+  color: white;
+  z-index: 3;
+}
+/* Adds black and red overlays with 50% opacity to columns in the .raceInfo div */
+/* Hovered classes remove the overlays and add drop shadows to text when targeted classes are hovered over */
+
+.anthem {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.hovered.anthem {
+    background-color: rgba(0,0,0,0);
+}
+
+.hovered.anthemText {
+  text-shadow: 2px 2px #000000;
+}
+
+.rodes {
+  background-color: rgba(255,0,0,0.5);
+  z-index: 2;
+}
+
+.hovered.rodes{
+  background-color: rgba(0,0,0,0);
+}
+
+.hovered.rodesText{
+  text-shadow: 2px 2px #000000;
+}
+
+.papaJohns{
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.hovered.papaJohns{
+  background-color: rgba(0,0,0,0);
+}
+
+.hovered.pjText {
+  text-shadow: 2px 2px #000000;
+}
+
+/* Adds styling to the .pricing div and the column with information about race prices */
+
+.pricing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pricing h3 {
+  padding-top: 10px;
+}
+
+.prices {
+  padding: 50px;
+}
+
+.prices h2 {
+  color: navy;
+  font-family: 'Racing Sans One', sans-serif;
+  font-size: 2em;
+}
+
+.prices a {
+  text-decoration: none;
+}
+
+.prices p {
+  font-weight: bold;
+}
+
+/*  Adds a background image and styles for the column containing the registration button */
+/* Hovered classes change the opacity of the background color and enlarge the text when the .register class is hovered */
+
+.register {
+  background-image: url("../img/lineup.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(255,0,0,0.5);
+}
+
+.hovered.registerA{
+  background-color: rgba(255,0,0,0.2);
+}
+
+.hovered.regText{
+  font-size: 2em;
+}
+
+/* Adds a background image and styling to the .otherInfo div */
+
+
+.otherInfo {
+  /* padding: 50px; */
+  background-image: url("../img/runOther.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+}
+
+.otherInfo h2 {
+    padding: 10px 10px 0;
+}
+
+.otherInfo a {
+  text-decoration: none;
+  color: white;
+}
+
+.otherInfo p {
+  color: white;
+}
+
+.otherInfo hr {
+  border: 1px solid white;
+}
+
+/* Adds black and red overlays with 50% opacity to the columns in the .otherInfo div */
+
+.about {
+  padding: 50px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.about.hovered {
+  background-color: rgba(0,0,0,0);
+}
+
+.aboutText.hovered {
+  text-shadow: 2px 2px #000000;
+}
+
+.traffic {
+  padding: 50px;
+  background-color: rgba(255,0,0,0.5);
+  z-index: 2;
+}
+
+.traffic.hovered {
+  background-color: rgba(0,0,0,0);
+}
+
+.trafficText.hovered {
+  text-shadow: 2px 2px #000000;
+}
+
+.spectator {
+  padding: 50px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.spectator.hovered {
+  background-color: rgba(0,0,0,0);
+}
+
+.spectatorText.hovered {
+    text-shadow: 2px 2px #000000;
+}
+
+.sponsors {
+  padding: 50px;
+  background-color: rgba(255,0,0,0.5);
+  z-index: 2;
+}
+
+.sponsors.hovered {
+  background-color: rgba(0,0,0,0);
+}
+
+.sponsorsText.hovered {
+  text-shadow: 2px 2px #000000;
+}
+
+/* media queries */
+
+@media  (min-width: 768px) {
+
+  main {
+    padding-top: 200px;
+    padding-bottom: 70px;
+  }
+
+  .logo {
+    height: 150px;
+  }
+
+};
