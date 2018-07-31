@@ -243,6 +243,14 @@ main {
   text-shadow: 2px 2px #000000;
 }
 
+footer {
+  background-color: whitesmoke;
+}
+
+footer p {
+  padding-left: 20px;
+}
+
 /* media queries */
 
 @media  (min-width: 768px) {
